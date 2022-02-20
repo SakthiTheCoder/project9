@@ -5,12 +5,13 @@ function setup() {
 }
 
 function draw() {
-  background(30);
-  drawSprites()
+  background("yellow");
+ 
   if (keyIsDown(RIGHT_ARROW)) {
     background ("red")
   
   }
+  drawSprites()
 }
 ``
 
